@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/backgroundSplash"
+    tools:context="br.com.mespinas.splashscreen.SplashScreenActivity">
+
+    <ImageView
+        android:layout_width="@dimen/widthLogoSplash"
+        android:layout_height="@dimen/heightLogoSplash"
+        android:id="@+id/ivSplashLogo"
+        android:background="@drawable/smartphone_icon"/>
+
+</LinearLayout>
